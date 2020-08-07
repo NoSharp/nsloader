@@ -1,7 +1,7 @@
 local function load_directory(dir)
     local fil, fol = file.Find(dir .. "/*", "LUA")
     for k,v in ipairs(fol) do
-        warns.load_directory(dir .. "/" .. v)
+        load_directory(dir .. "/" .. v)
     end
     for k,v in ipairs(fil) do
         local dirs = dir .. "/" .. v
