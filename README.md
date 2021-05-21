@@ -1,2 +1,2 @@
 # nsloader
-Its a loader that most people have used time to make a github
+Its a loader that most people have used time
